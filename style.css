@@ -34,7 +34,6 @@ body {
 
 .currency-container {
   padding: 0 50px;
-  width: 400px;
   display: flex;
   align-items: flex-start;
   justify-content: space-around;
