@@ -46,6 +46,9 @@ function calculate() {
       amount_two_el.value = (
         amount_one_el.value * data.rates[second_currency]
       ).toFixed(2);
+    })
+    .catch(() => {
+      rate.innerHTML = 'Something went wrong!!!';
     });
 }
 
